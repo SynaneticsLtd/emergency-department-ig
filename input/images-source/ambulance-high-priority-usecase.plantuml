@@ -1,0 +1,35 @@
+@startuml
+
+skinparam actorStyle awesome
+left to right direction
+
+actor Patient as a_pat
+actor Receptionist as a_rep
+actor Ambulance_Worker as a_amb
+actor Triage_Nurse as a_tri
+
+usecase "Register Patient" as u_reg
+usecase "Register New Patient" as u_new
+usecase "Ambulance Response" as u_amb
+usecase "Priority Medication Request" as u_phr
+usecase "Patient Portal" as u_por
+usecase "Bleep" as u_blp
+
+a_amb -- u_amb   : Retrieve/Update\nPatient Details
+a_amb -- a_pat   : Treat/Transport\nPatient
+
+a_rep -- u_amb   : Retrieve/Update\nPatient Details
+
+a_tri -- u_amb   : Monitor/Notification\nof High Priority
+a_tri -- u_por   : Review/Update Patient\nHistory for Prep
+a_tri -- a_amb   : Patient Handover
+a_tri -- u_blp   : Notify\nSpecialists
+
+a_rep --> u_reg  : Record Patient\nDetails
+a_rep --> a_tri  : Provide\nWristband
+u_reg <|-- u_new
+u_reg <.. u_phr  : include
+u_por ..> u_reg  : include
+
+
+@enduml

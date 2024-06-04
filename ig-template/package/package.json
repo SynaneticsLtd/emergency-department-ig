@@ -1,0 +1,10 @@
+{
+    "name": "bcuhb.wales.fhir.template",
+    "version": "0.1.0",
+    "type": "fhir.template",
+    "description": "Betsi Cadwaladr University Health Board FHIR Template",
+    "base": "fhir.base.template",
+    "dependencies": {
+      "fhir.base.template": "current"
+    }
+}

@@ -1,0 +1,19 @@
+@startuml
+
+skinparam actorStyle awesome
+left to right direction
+
+actor Patient as a_pat
+actor Receptionist as a_rep
+
+usecase "Register Patient" as u_reg
+usecase "Register New Patient" as u_new
+usecase "Priority Medication Request" as u_phr
+
+a_rep -- a_pat   : Determine Patient\nDetails
+a_rep --> u_reg  : Record Patient\nDetails
+u_reg <|-- u_new
+u_reg <.. u_phr  : include
+a_rep --> a_pat  : Provide Wristband
+
+@enduml

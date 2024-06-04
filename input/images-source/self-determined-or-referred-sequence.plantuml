@@ -1,0 +1,52 @@
+@startuml
+
+skinparam actorStyle hollow
+
+actor        "Patient"               as a_pat
+actor        "Receptionist"          as a_rep
+participant  "Frontend"              as p_app
+participant  "FHIR API"              as p_api
+database     "FHIR Store"            as d_fst
+
+a_pat -> a_rep : Provide personal\ndetails
+
+a_rep -> p_app : Register patient\nattendance
+
+p_app -> p_api  : GET /Patient
+p_api -> d_fst  : Patient query
+
+alt No patient exists
+a_rep -> p_app  : Create new patient
+p_app -> p_api  : POST /Patient
+p_api -> d_fst  : Patient insert
+else Patient exists
+p_app -> p_api  : GET /MedicationStatement, /Flag
+p_api -> d_fst  : MedicationStatement query
+p_api -> d_fst  : Flag query
+end
+
+p_app -> p_api  : POST /Encounter
+p_api -> d_fst  : Encounter insert
+
+alt Patient requires high priority medication
+p_app -> p_api  : POST /Bundle (transaction)\n{\n  MedicationRequest,\n  ServiceRequest,\n  Task\n}
+p_api -> d_fst  : MedicationRequest insert
+p_api -> d_fst  : ServiceRequest insert
+p_api -> d_fst  : Task insert
+end
+
+a_rep -> p_app  : Retrieve Questionaire
+p_app -> p_api  : GET /Questionaire
+p_api -> d_fst  : Questionaire query
+a_rep -> a_pat  : Provide Questionaire
+a_pat -> a_pat  : Complete Questionaire
+a_pat -> p_app  : Provide QuestionaireResponse
+p_app -> p_api  : POST /QuestionaireResponse
+p_api -> d_fst  : QuestionaireResponse insert
+
+a_rep -> p_app  : Print wristband
+p_app -> p_api  : GET /Patient
+p_api -> d_fst  : Patient query
+a_rep -> a_pat  : Provide wristband
+
+@enduml
