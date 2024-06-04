@@ -6,7 +6,7 @@
 
 [Eirwen](Practitioner-Receptionist.html) then expands the search to also search a national register of patients, but still does not find [Dylan](Patient-DylanJones.html).  She then registers him as a new Patient, which will also record this as a new [encounter](Encounter-DylanJones-EdReception.html).
 
-[Eirwen](Practitioner-Receptionist.html) prints a wristband with [Dylan's](Patient-DylanJones.html) details.  [Eirwen](Practitioner-Receptionist.html) then asks [Dylan](Patient-DylanJones.html) questions about his current condition, any previous conditions that may be relevant.  [Dylan](Patient-DylanJones.html) does not provide any details of any conditions.  [Eirwen](Practitioner-Receptionist.html) asks [Dylan](Patient-DylanJones.html) to wait in the waiting room to be triaged.
+[Eirwen](Practitioner-Receptionist.html) prints a wristband with [Dylan's](Patient-DylanJones.html) details.  [Eirwen](Practitioner-Receptionist.html) then asks [Dylan](Patient-DylanJones.html) a series of [questions](Questionnaire-EmergencyDepartmentReception.html), including any allergies he might have.  [Dylan](Patient-DylanJones.html) does not provide any [details](QuestionnaireResponse-EmergencyDepartmentReception.html) of any known allergies.  [Eirwen](Practitioner-Receptionist.html) asks [Dylan](Patient-DylanJones.html) to wait in the waiting room to be triaged.
 
 - [Gherkin Scenarios](todo.html)
 
