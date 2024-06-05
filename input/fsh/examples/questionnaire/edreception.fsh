@@ -35,3 +35,15 @@ Usage: #example
 * item[=].item[+].linkId = "3.2"
 * item[=].item[=].text = "Do you drink alchohol?"
 * item[=].item[=].type = #boolean
+* item[+].linkId = "4"
+* item[=].text = "Conditions"
+* item[=].type = #group
+* item[=].item[0].linkId = "4.1"
+* item[=].item[=].text = "Do you have any other specific conditions that may be relevant?"
+* item[=].item[=].type = #group
+* item[=].item[=].item[0].linkId  = "nameOfCondition"
+* item[=].item[=].item[=].text  = "Name Of Condition"
+* item[=].item[=].item[=].type  = #string
+// Would be good to make this a group and include name and coding, but probably more feasible to query
+// a terminology server for an appropriate code based on the condition details, then create a condition
+// resource.  TODO, worth revisiting...
