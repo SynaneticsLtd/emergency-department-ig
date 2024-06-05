@@ -12,4 +12,3 @@ Usage: #example
 * authoredOn = "2000-01-01T09:03:32-04:00"
 * requester = Reference(Practitioner/Receptionist) "Eirwen Thomas"
 * encounter = Reference(Encounter/DylanJones-EdReception)
-

@@ -77,9 +77,12 @@ publisher:
 menu:
   Home: index.html
   Scenarios:
-    Register Patient in Reception: scenario-register-patient-in-reception.html
-    Triage Patient: scenario-triage-patient.html
-    Consultant Assessment of Patient: scenario-consultant-assessment.html
+    Patient Perspective:
+      Register Patient in Reception: scenario-register-patient-in-reception.html
+      Triage Patient: scenario-triage-patient.html
+      Consultant Assessment of Patient: scenario-consultant-assessment.html
+    ED Consultant Perspective:
+      Consultant Assessment of Patient: todo.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
