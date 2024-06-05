@@ -1,7 +1,8 @@
-Instance: Organization-CymruMedicalCentre
+Instance: Organization-GeneralPractitioner
 InstanceOf: Organization
+Description: "Organization for general medical practice in Swansea."
 Usage: #example
-* id = "CymruMedicalCentre"
+* id = "GeneralPractitioner"
 * active = true
 * name = "Cymru Medical Centre"
 * type = $OrganisationType#prov "Healthcare Provider"

@@ -1,5 +1,6 @@
 Instance: PractitionerRole-Receptionist
 InstanceOf: PractitionerRole
+Description: "Practitioner that is a emergency department receptionist."
 Usage: #example
 * id = "Receptionist"
 * active = true

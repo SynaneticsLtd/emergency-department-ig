@@ -1,5 +1,6 @@
 Instance: PractitionerRole-TriageNurse
 InstanceOf: PractitionerRole
+Description: "Practitioner that is a emergency department triage nurse."
 Usage: #example
 * id = "TriageNurse"
 * active = true

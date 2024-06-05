@@ -1,5 +1,6 @@
 Instance: Practitioner-TriageNurse
 InstanceOf: Practitioner
+Description: "Practitioner that is a emergency department triage nurse."
 Usage: #example
 * id = "TriageNurse"
 * name.use = #official

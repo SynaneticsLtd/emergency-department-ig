@@ -1,5 +1,6 @@
 Instance: ServiceRequest-PriorityMedication
 InstanceOf: ServiceRequest
+Description: "ServiceRequest for a pharmacist to visit a patient that has been flagged for priority medication."
 Usage: #example
 * id = "PriorityMedication"
 * status = #active

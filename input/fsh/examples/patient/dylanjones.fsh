@@ -1,5 +1,6 @@
 Instance: Patient-DylanJones
 InstanceOf: Patient
+Description: "Patient called Dylan Jones from Wales."
 Usage: #example
 * id = "DylanJones"
 * identifier.system = "https://fhir.nhs.uk/Id/nhs-number"

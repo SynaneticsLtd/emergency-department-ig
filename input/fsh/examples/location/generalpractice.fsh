@@ -1,5 +1,6 @@
 Instance: Location-GeneralPractitioner
 InstanceOf: Location
+Description: "Location for general medical practice in Swansea."
 Usage: #example
 * id = "GeneralPractitioner"
 * name = "Cymru General Practice"

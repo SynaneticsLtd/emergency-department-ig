@@ -1,5 +1,6 @@
 Instance: Flag-PriorityMedication
 InstanceOf: Flag
+Description: "Flag indicating the patient Dylan Jones requires a high priority medication."
 Usage: #example
 * id = "PriorityMedication"
 * status = #active

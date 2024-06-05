@@ -1,5 +1,6 @@
 Instance: PractitionerRole-Pharmacist
 InstanceOf: PractitionerRole
+Description: "Practitioner that is a hospital pharmacist."
 Usage: #example
 * id = "Pharmacist"
 * active = true

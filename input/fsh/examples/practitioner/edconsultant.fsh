@@ -1,5 +1,6 @@
 Instance: Practitioner-EDConsultant
 InstanceOf: Practitioner
+Description: "Practitioner that is an emergency department consultant."
 Usage: #example
 * id = "EDConsultant"
 * name.use = #official

@@ -1,5 +1,6 @@
 Instance: Organization-CymruHospital
 InstanceOf: Organization
+Description: "Organization for hospital in Conwy."
 Usage: #example
 * id = "CymruHospital"
 * active = true

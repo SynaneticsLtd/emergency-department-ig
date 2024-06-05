@@ -1,5 +1,6 @@
-Instance: EmergencyDepartmentReception-QuestionnaireResponse
+Instance: QuestionnaireResponse-EmergencyDepartmentReception
 InstanceOf: QuestionnaireResponse
+Description: "QuestionnaireResponse for questionnaire given in emergency department reception."
 Usage: #example
 * id = "EmergencyDepartmentReception"
 * status = #completed

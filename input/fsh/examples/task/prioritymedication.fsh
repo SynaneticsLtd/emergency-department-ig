@@ -1,5 +1,6 @@
 Instance: Task-PriorityMedication
 InstanceOf: Task
+Description: "Task to monitor a request for a pharmacist to visit a patient that has been flagged for priority medication."
 Usage: #example
 * id = "PriorityMedication"
 * status = #requested

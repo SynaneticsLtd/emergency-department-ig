@@ -1,9 +1,8 @@
-Instance: EmergencyDepartmentReception-Questionnaire
+Instance: Questionnaire-EmergencyDepartmentReception
 InstanceOf: Questionnaire
+Description: "Questionnaire given in emergency department reception."
 Usage: #example
 * id = "EmergencyDepartmentReception"
-* name = "Emergency Department Reception Questionnaire"
-* title = "Emergency Department Reception Questionnaire"
 * status = #active
 * subjectType = #Patient
 * date = "2000"

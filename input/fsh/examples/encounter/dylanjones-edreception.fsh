@@ -1,5 +1,6 @@
 Instance: Encounter-DylanJones-EdReception
 InstanceOf: Encounter
+Description: "Encounter for patient Dylan Jones at the emergency department reception with breathing difficulties."
 Usage: #example
 * id = "DylanJones-EdReception"
 * status = #in-progress

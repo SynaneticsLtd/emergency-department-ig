@@ -1,5 +1,6 @@
 Instance: Practitioner-Pharmacist
 InstanceOf: Practitioner
+Description: "Practitioner that is a hospital pharmacist."
 Usage: #example
 * id = "Pharmacist"
 * name.use = #official

@@ -1,5 +1,6 @@
 Instance: Condition-PriorityCondition
 InstanceOf: Condition
+Description: "Condition for patient Dylan Jones of severe controlled persistent asthma."
 Usage: #example
 * id = "PriorityCondition"
 * clinicalStatus = $condition-clinical#active

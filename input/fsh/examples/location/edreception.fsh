@@ -1,5 +1,6 @@
 Instance: Location-EDReception
 InstanceOf: Location
+Description: "Location for emergency department reception in hospital."
 Usage: #example
 * id = "EDReception"
 * status = #active
