@@ -1,8 +1,7 @@
-Instance: Condition-PriorityCondition
+Instance: PriorityCondition
 InstanceOf: Condition
 Description: "Condition for patient Dylan Jones of severe controlled persistent asthma."
 Usage: #example
-* id = "PriorityCondition"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * category = $sct#439401001 "diagnosis"

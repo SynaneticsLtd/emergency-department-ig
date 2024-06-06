@@ -2,7 +2,6 @@ Instance: Location-CymruHospital
 InstanceOf: Location
 Description: "Location for hospital in Conwy."
 Usage: #example
-* id = "CymruHospital"
 * status = #active
 * name = "Cymru Hospital"
 * mode = #instance

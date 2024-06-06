@@ -1,13 +1,12 @@
-Instance: QuestionnaireResponse-EmergencyDepartmentReception-Condition
+Instance: EmergencyDepartmentReception-Condition
 InstanceOf: QuestionnaireResponse
 Description: "QuestionnaireResponse for questionnaire given in emergency department reception where a condition is included."
 Usage: #example
-* id = "EmergencyDepartmentReception-Condition"
 * status = #completed
 * subject = Reference(Patient/DylanJones) "Dylan Jones"
 * authored = "2000-01-01T09:03:00+01:00"
-* author = Reference(Practitioner/Receptionist)
-* source = Reference(Practitioner/Receptionist)
+* author = Reference(Practitioner/Practitioner-Receptionist)
+* source = Reference(Practitioner/Practitioner-Receptionist)
 * item[0].linkId = "1"
 * item[=].text = "Do you have allergies?"
 * item[=].answer.valueBoolean = false

@@ -6,7 +6,7 @@ Usage: #example
 * status = #active
 * name = "Cymru Hospital Emergency Reception"
 * mode = #instance
-* type = $RoleCode#WORPROFFK "work site"
+* type = $RoleCode#WORK "work site"
 * address.line = "789 Hospital Avenue"
 * address.city = "Conwy"
 * address.postalCode = "LL30 1AB"
@@ -14,4 +14,4 @@ Usage: #example
 * telecom.system = #phone
 * telecom.value = "+44 1492 123456"
 * physicalType = $location-physical-type#area "Area"
-* managingOrganization = Reference(Organization/CymruHospital) "Cymru Hospital"
+* managingOrganization = Reference(Organization/Organization-CymruHospital) "Cymru Hospital"

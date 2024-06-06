@@ -2,7 +2,6 @@ Instance: Practitioner-GeneralPractitioner
 InstanceOf: Practitioner
 Description: "Practitioner that is a GP based in Swansea."
 Usage: #example
-* id = "GeneralPractitioner"
 * name.use = #official
 * name.family = "Evans"
 * name.given = "Gwen"

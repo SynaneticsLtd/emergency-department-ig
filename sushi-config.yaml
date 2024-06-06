@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: emergency-department.stu1
-canonical: http://example.org
+canonical: https://www.nhs.wales/
 name: Emergency Department
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
@@ -17,7 +17,7 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: Gwasanaeth Iechyd Gwladol Cymru NHS Wales
-  url: http://example.org/emergency-department
+  url: https://www.nhs.wales/
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the

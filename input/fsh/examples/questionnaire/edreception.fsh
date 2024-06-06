@@ -2,7 +2,6 @@ Instance: Questionnaire-EmergencyDepartmentReception
 InstanceOf: Questionnaire
 Description: "Questionnaire given in emergency department reception."
 Usage: #example
-* id = "EmergencyDepartmentReception"
 * status = #active
 * subjectType = #Patient
 * date = "2000"

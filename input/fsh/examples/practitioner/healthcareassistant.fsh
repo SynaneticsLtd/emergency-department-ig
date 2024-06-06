@@ -2,7 +2,6 @@ Instance: Practitioner-HealthcareAssistant
 InstanceOf: Practitioner
 Description: "Practitioner that is an emergency department healthcare assistant."
 Usage: #example
-* id = "HealthcareAssistant"
 * name.use = #official
 * name.family = "Lovell"
 * name.given = "Derby"

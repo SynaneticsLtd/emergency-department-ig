@@ -2,7 +2,6 @@ Instance: Practitioner-Receptionist
 InstanceOf: Practitioner
 Description: "Practitioner that is a emergency department receptionist."
 Usage: #example
-* id = "Receptionist"
 * name.use = #official
 * name.family = "Thomas"
 * name.given = "Eirwen"
