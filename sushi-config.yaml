@@ -80,9 +80,10 @@ menu:
     Self Determined:
       Register Patient in Reception: scenario-register-patient-in-reception.html
       Triage Patient: scenario-triage-patient.html
-      Consultant Assessment of Patient: scenario-consultant-assessment.html
+      ED Consultant Assessment of Patient: scenario-ed-consultant-assessment.html
       Junior Doctor Claims Patient: scenario-junior-doctor-claims-patient.html
       Junior Doctor Clerks Paitent: scenario-junior-doctor-clerks-patient.html
+      Senior Consultant Assessment of Patient: scenario-senior-consultant-assessment.html
     Ambulance low/medium severity:
       Ambulance work checks patient into reception: todo.html
     Ambulance high severity:

@@ -1,0 +1,3 @@
+### Patient is assessed by senior consultant and is discharged from EQ
+
+The junior doctor [Isabella Emmaline](todo.html) calls the senior consultant [Ivor Casey](todo.html) to discuss the [test results](todo.html) that indicate the [patient](Patient-DylanJones.html) **(TODO - some details on something that medically fits in this context?)**.  [Ivor](todo.html) takes ownership of the patient in the admissions and handover system and reviews all of the available patient [medical history](todo.html).
