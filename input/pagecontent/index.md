@@ -1,6 +1,5 @@
-# Emergency Department
 
-### Introduction
+### Emergency Department
 
 ***TODO***
 
