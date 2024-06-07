@@ -84,6 +84,7 @@ menu:
       Junior Doctor Claims Patient: scenario-junior-doctor-claims-patient.html
       Junior Doctor Clerks Paitent: scenario-junior-doctor-clerks-patient.html
       Senior Consultant Assessment of Patient: scenario-senior-consultant-assessment.html
+      Patient handover to ward: scenario-handover-patient-to-ward.html
     Ambulance low/medium severity:
       Ambulance work checks patient into reception: todo.html
     Ambulance high severity:
