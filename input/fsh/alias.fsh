@@ -8,3 +8,5 @@ Alias: $ParticipationType = http://terminology.hl7.org/CodeSystem/v3-Participati
 Alias: $flag-category = http://terminology.hl7.org/CodeSystem/flag-category
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
+Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $loinc = http://loinc.org
