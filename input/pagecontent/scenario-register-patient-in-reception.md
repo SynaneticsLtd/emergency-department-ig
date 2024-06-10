@@ -6,7 +6,7 @@
 
 [Eirwen](Practitioner-Practitioner-Receptionist.html) then expands the search to also search a national register of patients, but still does not find [Dylan](Patient-DylanJones.html).  She then registers him as a new Patient, which will also record this as a new [encounter](Encounter-DylanJones-EdReception-Respiratory.html).
 
-[Eirwen](Practitioner-Practitioner-Receptionist.html) prints a wristband with [Dylan's](Patient-DylanJones.html) details.  [Eirwen](Practitioner-Practitioner-Receptionist.html) then asks [Dylan](Patient-DylanJones.html) a series of [questions](Questionnaire-Questionnaire-EmergencyDepartmentReception.html), including any allergies he might have.  [Dylan](Patient-DylanJones.html) does not provide any [details](QuestionnaireResponse-QuestionnaireResponse-EmergencyDepartmentReception.html) of any known allergies.  [Eirwen](Practitioner-Practitioner-Receptionist.html) asks [Dylan](Patient-DylanJones.html) to wait in the waiting room to be triaged.
+[Eirwen](Practitioner-Practitioner-Receptionist.html) prints a wristband with [Dylan's](Patient-DylanJones.html) details.  [Eirwen](Practitioner-Practitioner-Receptionist.html) then asks [Dylan](Patient-DylanJones.html) a series of [questions](Questionnaire-Questionnaire-EmergencyDepartmentReception.html), including any allergies he might have.  [Dylan](Patient-DylanJones.html) does not provide any [details](QuestionnaireResponse-QuestionnaireResponse-EmergencyDepartmentReception.html) of any known allergies.  [Eirwen](Practitioner-Practitioner-Receptionist.html) asks [Dylan](Patient-DylanJones.html) to wait in the [waiting room](Location-EDWaitingRoom.html) to be triaged.
 
 - [Gherkin Scenarios](todo.html)
 
@@ -34,7 +34,7 @@
 
 [Eirwen](Practitioner-Practitioner-Receptionist.html) also checks if [Dylan](Patient-DylanJones.html) has been flagged for any priority medications and finds he is not.
 
-[Eirwen](Practitioner-Practitioner-Receptionist.html) prints a wristband with [Dylan's](Patient-DylanJones.html) details.  [Eirwen](Practitioner-Practitioner-Receptionist.html) then asks [Dylan](Patient-DylanJones.html) a series of [questions](Questionnaire-Questionnaire-EmergencyDepartmentReception.html), including any allergies he might have.  [Dylan](Patient-DylanJones.html) does not provide any [details](QuestionnaireResponse-QuestionnaireResponse-EmergencyDepartmentReception.html) of any known allergies.  [Eirwen](Practitioner-Practitioner-Receptionist.html) asks [Dylan](Patient-DylanJones.html) to wait in the waiting room to be triaged.
+[Eirwen](Practitioner-Practitioner-Receptionist.html) prints a wristband with [Dylan's](Patient-DylanJones.html) details.  [Eirwen](Practitioner-Practitioner-Receptionist.html) then asks [Dylan](Patient-DylanJones.html) a series of [questions](Questionnaire-Questionnaire-EmergencyDepartmentReception.html), including any allergies he might have.  [Dylan](Patient-DylanJones.html) does not provide any [details](QuestionnaireResponse-QuestionnaireResponse-EmergencyDepartmentReception.html) of any known allergies.  [Eirwen](Practitioner-Practitioner-Receptionist.html) asks [Dylan](Patient-DylanJones.html) to wait in the [waiting room](Location-EDWaitingRoom.html) to be triaged.
 
 - [Gherkin Scenarios](todo.html)
 
@@ -62,7 +62,7 @@ On finding [Dylan](Patient-DylanJones.html), a new [encounter](Encounter-DylanJo
 
 [Eirwen](Practitioner-Practitioner-Receptionist.html) also checks if [Dylan](Patient-DylanJones.html) has been flagged for any priority medications and finds he is not.
 
-[Eirwen](Practitioner-Practitioner-Receptionist.html) prints a wristband with [Dylan's](Patient-DylanJones.html) details.  [Eirwen](Practitioner-Practitioner-Receptionist.html) then asks [Dylan](Patient-DylanJones.html) a series of [questions](Questionnaire-Questionnaire-EmergencyDepartmentReception.html), including any allergies he might have.  [Dylan](Patient-DylanJones.html) does not provide any [details](QuestionnaireResponse-QuestionnaireResponse-EmergencyDepartmentReception.html) of any known allergies.  [Eirwen](Practitioner-Practitioner-Receptionist.html) asks [Dylan](Patient-DylanJones.html) to wait in the waiting room to be triaged.
+[Eirwen](Practitioner-Practitioner-Receptionist.html) prints a wristband with [Dylan's](Patient-DylanJones.html) details.  [Eirwen](Practitioner-Practitioner-Receptionist.html) then asks [Dylan](Patient-DylanJones.html) a series of [questions](Questionnaire-Questionnaire-EmergencyDepartmentReception.html), including any allergies he might have.  [Dylan](Patient-DylanJones.html) does not provide any [details](QuestionnaireResponse-QuestionnaireResponse-EmergencyDepartmentReception.html) of any known allergies.  [Eirwen](Practitioner-Practitioner-Receptionist.html) asks [Dylan](Patient-DylanJones.html) to wait in the [waiting room](Location-EDWaitingRoom.html) to be triaged.
 
 - [Gherkin Scenarios](todo.html)
 
@@ -90,7 +90,7 @@ On finding [Dylan](Patient-DylanJones.html), a new [encounter](Encounter-DylanJo
 
 [Eirwen](Practitioner-Practitioner-Receptionist.html) also checks if [Dylan](Patient-DylanJones.html) has been [flagged](Flag-Flag-PriorityMedication.html) for any priority medications and finds that he does.  A [request](ServiceRequest-ServiceRequest-PriorityMedication.html) is sent to the [Pharmacist](Practitioner-Practitioner-Pharmacist.html) to [see](Task-Task-PriorityMedication.html) the patient.
 
-[Eirwen](Practitioner-Practitioner-Receptionist.html) prints a wristband with [Dylan's](Patient-DylanJones.html) details.  [Eirwen](Practitioner-Practitioner-Receptionist.html) then asks [Dylan](Patient-DylanJones.html) a series of [questions](Questionnaire-Questionnaire-EmergencyDepartmentReception.html). [Dylan](Patient-DylanJones.html) provides [details](QuestionnaireResponse-EmergencyDepartmentReception-Condition.html) of a [condition](Condition-PriorityCondition.html) related to the priority [medication](Medication-Medication-PriorityMedication.html) he has been flagged for.  [Eirwen](Practitioner-Practitioner-Receptionist.html) asks [Dylan](Patient-DylanJones.html) to wait in the waiting room to be triaged.
+[Eirwen](Practitioner-Practitioner-Receptionist.html) prints a wristband with [Dylan's](Patient-DylanJones.html) details.  [Eirwen](Practitioner-Practitioner-Receptionist.html) then asks [Dylan](Patient-DylanJones.html) a series of [questions](Questionnaire-Questionnaire-EmergencyDepartmentReception.html). [Dylan](Patient-DylanJones.html) provides [details](QuestionnaireResponse-EmergencyDepartmentReception-Condition.html) of a [condition](Condition-PriorityCondition.html) related to the priority [medication](Medication-Medication-PriorityMedication.html) he has been flagged for.  [Eirwen](Practitioner-Practitioner-Receptionist.html) asks [Dylan](Patient-DylanJones.html) to wait in the [waiting room](Location-EDWaitingRoom.html) to be triaged.
 
 - [Gherkin Scenarios](todo.html)
 
