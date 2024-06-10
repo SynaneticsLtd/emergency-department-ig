@@ -24,10 +24,10 @@ Usage: #example
 * entry[=].resource = PractitionerRole-Receptionist
 * entry[=].request.method = #POST
 * entry[=].request.url = "PractitionerRole/PractitionerRole-Receptionist"
-* entry[+].fullUrl = "https://www.nhs.wales/Encounter/DylanJones-EdReception"
-* entry[=].resource = DylanJones-EdReception
+* entry[+].fullUrl = "https://www.nhs.wales/Encounter/DylanJones-EdReception-Respiratory"
+* entry[=].resource = DylanJones-EdReception-Respiratory
 * entry[=].request.method = #POST
-* entry[=].request.url = "Encounter/DylanJones-EdReception"
+* entry[=].request.url = "Encounter/DylanJones-EdReception-Respiratory"
 * entry[+].fullUrl = "https://www.nhs.wales/Questionnaire/Questionnaire-EmergencyDepartmentReception"
 * entry[=].resource = Questionnaire-EmergencyDepartmentReception
 * entry[=].request.method = #POST

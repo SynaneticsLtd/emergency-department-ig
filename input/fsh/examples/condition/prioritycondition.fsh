@@ -8,6 +8,6 @@ Usage: #example
 * severity = $sct#24484000 "Severe"
 * code = $sct#10675391000119101 "Severe controlled persistent asthma"
 * subject = Reference(Patient/DylanJones) "Dylan Jones"
-* encounter = Reference(Encounter/DylanJones-EdReception)
+* encounter = Reference(Encounter/DylanJones-EdReception-Respiratory)
 * onsetDateTime = "2000-01-01"
 * recordedDate = "2000-01-01"

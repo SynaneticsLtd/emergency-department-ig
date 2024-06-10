@@ -10,4 +10,4 @@ Usage: #example
 * authoredOn = "2000-01-01T09:03:07Z"
 * requester = Reference(Practitioner/Practitioner-Receptionist) "Eirwen Thomas"
 * performer = Reference(Practitioner/Practitioner-Pharmacist) "Hanna Adya"
-* encounter = Reference(Encounter/DylanJones-EdReception)
+* encounter = Reference(Encounter/DylanJones-EdReception-Respiratory)

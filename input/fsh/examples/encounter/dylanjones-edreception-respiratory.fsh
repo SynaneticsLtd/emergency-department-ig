@@ -1,8 +1,8 @@
-Instance: Encounter-DylanJones-EdReception
+Instance: Encounter-DylanJones-EdReception-Respiratory
 InstanceOf: Encounter
 Description: "Encounter for patient Dylan Jones at the emergency department reception with breathing difficulties."
 Usage: #example
-* id = "DylanJones-EdReception"
+* id = "DylanJones-EdReception-Respiratory"
 * status = #in-progress
 * location.location = Reference(Location/EDReception) "Cymru Hospital Emergency Reception"
 * location.status = #active

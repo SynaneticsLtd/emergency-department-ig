@@ -78,14 +78,14 @@ menu:
   Home: index.html
   Scenarios:
     Self Determined:
-      Minor Injury:
+      Registration:
         Register Patient in Reception: scenario-register-patient-in-reception.html
-        Triage Patient: scenario-triage-patient.html
+      Minor Injury:
+        Triage Patient: scenario-triage-patient-minor.html
         ENP Assement of Patient: todo.html
         ENP Review Results with Patient: todo.html
       Referred to Medicine:
-        Register Patient in Reception: scenario-register-patient-in-reception.html
-        Triage Patient: scenario-triage-patient.html
+        Triage Patient: scenario-triage-patient-respiratory.html
         ED Consultant Assessment of Patient: scenario-ed-consultant-assessment.html
         Junior Doctor Claims Patient: scenario-junior-doctor-claims-patient.html
         Junior Doctor Clerks Paitent: scenario-junior-doctor-clerks-patient.html
