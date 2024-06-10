@@ -78,17 +78,42 @@ menu:
   Home: index.html
   Scenarios:
     Self Determined:
-      Register Patient in Reception: scenario-register-patient-in-reception.html
-      Triage Patient: scenario-triage-patient.html
-      ED Consultant Assessment of Patient: scenario-ed-consultant-assessment.html
-      Junior Doctor Claims Patient: scenario-junior-doctor-claims-patient.html
-      Junior Doctor Clerks Paitent: scenario-junior-doctor-clerks-patient.html
-      Senior Consultant Assessment of Patient: scenario-senior-consultant-assessment.html
-      Patient handover to ward: scenario-handover-patient-to-ward.html
+      Minor Injury:
+        Register Patient in Reception: scenario-register-patient-in-reception.html
+        Triage Patient: scenario-triage-patient.html
+        ENP Assement of Patient: todo.html
+        ENP Review Results with Patient: todo.html
+      Referred to Medicine:
+        Register Patient in Reception: scenario-register-patient-in-reception.html
+        Triage Patient: scenario-triage-patient.html
+        ED Consultant Assessment of Patient: scenario-ed-consultant-assessment.html
+        Junior Doctor Claims Patient: scenario-junior-doctor-claims-patient.html
+        Junior Doctor Clerks Paitent: scenario-junior-doctor-clerks-patient.html
+        Senior Consultant Assessment of Patient: scenario-senior-consultant-assessment.html
+        Patient Handover to Ward: scenario-handover-patient-to-ward.html
     Ambulance low/medium severity:
-      Ambulance work checks patient into reception: todo.html
+      Patient Calls Ambulance and is Brought to Hospital: todo.html
+      Triage Nurse Prepares for Ambulance Arrival: todo.html
+      Ambulance Worker Checks In Patient: todo.html
+      Patient is Handed Over to Triage Nurse in Hospital: todo.html
+      Triage is Carried Out in Ambulance: todo.html
+      Patient is Transferred to Majors: todo.html
+      Consultant Claims Patient: todo.html
+      Consultant Clerks Patient: todo.html
+      Consultant Assessment of Patient: todo.html
+      Patient Handover to AMU: todo.html
     Ambulance high severity:
-      Triage nurse selects incoming ambulance arrival: todo.html
+      Triage Nurse Prepares for Ambulance Arrival: todo.html
+      Blue Code Patient to be Streamed to Resus: todo.html
+      Triage Nurse Prepares Tests and Assesses Availability in EQ for Arrival: todo.html
+      Triage Nurse and Ambulance Worker Checks In Patient: todo.html
+      Patient is Handed Over to Triage Nurse in Hospital: todo.html
+      Triage is Carried Out in Ambulance: todo.html
+      Patient is Transferred to Majors: todo.html  
+      Consultant Claims Patient: todo.html
+      Consultant Clerks Patient: todo.html
+      Consultant Assessment of Patient: todo.html
+      Patient Handover to AMU: todo.html       
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
