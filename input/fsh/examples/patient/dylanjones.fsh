@@ -2,8 +2,10 @@ Instance: DylanJones
 InstanceOf: Patient
 Description: "Patient called Dylan Jones from Wales."
 Usage: #example
-* identifier.system = "https://fhir.nhs.uk/Id/nhs-number"
-* identifier.value = "1234567890"
+* identifier[0].system = "https://fhir.nhs.uk/Id/nhs-number"
+* identifier[=].value = "1234567890"
+* identifier[+].system = "https://fhir.bcuhb.nhs.wales/Id/east-pas-identifier"
+* identifier[=].value = "1234567890"
 * name.use = #official
 * name.family = "Jones"
 * name.given = "Dylan"

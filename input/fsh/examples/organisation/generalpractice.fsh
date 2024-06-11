@@ -2,6 +2,8 @@ Instance: Organization-GeneralPractitioner
 InstanceOf: Organization
 Description: "Organization for general medical practice in Swansea."
 Usage: #example
+* identifier.system = "https://fhir.nhs.uk/Id/ods-organization-code"
+* identifier.value = "DEF"
 * active = true
 * name = "Cymru Medical Centre"
 * type = $OrganisationType#prov "Healthcare Provider"

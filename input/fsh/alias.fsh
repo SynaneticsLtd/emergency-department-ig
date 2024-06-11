@@ -10,3 +10,5 @@ Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-cli
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $loinc = http://loinc.org
+Alias: $service-category = http://terminology.hl7.org/CodeSystem/service-category
+Alias: $service-provision-conditions = http://terminology.hl7.org/CodeSystem/service-provision-conditions
