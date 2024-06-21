@@ -1,4 +1,4 @@
-Instance: Observation-BloodPressure
+Instance: Observation-AdamTest-BloodPressure
 InstanceOf: Observation
 Description: "NEWS2 Observation - Blood pressure."
 Usage: #example
@@ -6,7 +6,7 @@ Usage: #example
 * category = $observation-category#vital-signs "Vital Signs"
 * code.coding[0] = $sct#75367002 "Blood pressure"
 * code.coding[+] = $loinc#85354-9 "Blood pressure panel with all children optional"
-* subject = Reference(Patient/DylanJones) "Dylan Jones"
+* subject = Reference(Patient/Patient-AdamTest) "Adam Test"
 * effectiveDateTime = "2018-10-04T14:17:59+01:00"
 * performer[0] = Reference(Practitioner/Practitioner-TriageNurse)
 * performer[+] = Reference(Organization/Organization-CymruHospital)
