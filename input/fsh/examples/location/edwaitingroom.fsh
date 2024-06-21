@@ -13,5 +13,5 @@ Usage: #example
 * address.country = "Wales"
 * telecom.system = #phone
 * telecom.value = "+44 1492 123456"
-* physicalType = $location-physical-type#area "Area"
+* physicalType = $location-physical-type#wa "Ward"
 * managingOrganization = Reference(Organization/Organization-CymruHospital) "Cymru Hospital"
