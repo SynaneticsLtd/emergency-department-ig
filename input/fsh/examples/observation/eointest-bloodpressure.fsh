@@ -8,8 +8,8 @@ Usage: #example
 * code.coding[+] = $loinc#85354-9 "Blood pressure panel with all children optional"
 * subject = Reference(Patient/Patient-EoinTest) "Eoin Test"
 * effectiveDateTime = "2018-10-04T14:17:59+01:00"
-* performer[0] = Reference(Practitioner/Practitioner-TriageNurse)
-* performer[+] = Reference(Organization/Organization-CymruHospital)
+* performer[0] = Reference(Practitioner/Practitioner-YsbytyGwynedd-TriageNurse)
+* performer[+] = Reference(Organization/Organization-YsbytyGwyneddHospital)
 * bodySite = $sct#368209003 "Right upper arm structure"
 * component[0].code.coding[0] = $sct#72313002 "Systolic arterial pressure"
 * component[=].code.coding[+] = $loinc#8480-6 "Systolic blood pressure"

@@ -8,6 +8,6 @@ Usage: #example
 * code.coding[+] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * subject = Reference(Patient/Patient-FredTest) "Fred Test"
 * effectiveDateTime = "2018-10-04T14:17:59+01:00"
-* performer[0] = Reference(Practitioner/Practitioner-TriageNurse)
-* performer[+] = Reference(Organization/Organization-CymruHospital)
+* performer[0] = Reference(Practitioner/Practitioner-YsbytyGwynedd-TriageNurse)
+* performer[+] = Reference(Organization/Organization-YsbytyGwyneddHospital)
 * valueQuantity = 93 '%' "percent"

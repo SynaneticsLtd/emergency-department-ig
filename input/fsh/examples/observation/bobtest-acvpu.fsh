@@ -7,6 +7,6 @@ Usage: #example
 * code = $sct#1104441000000107 "ACVPU (Alert Confusion Voice Pain Unresponsive) scale score"
 * subject = Reference(Patient/Patient-BobTest) "Bob Test"
 * effectiveDateTime = "2018-10-04T14:17:59+01:00"
-* performer[0] = Reference(Practitioner/Practitioner-TriageNurse)
-* performer[+] = Reference(Organization/Organization-CymruHospital)
+* performer[0] = Reference(Practitioner/Practitioner-GlanClwyd-TriageNurse)
+* performer[+] = Reference(Organization/Organization-GlanClwydHospital)
 * valueCodeableConcept = $sct#248234008 "Mentally alert"

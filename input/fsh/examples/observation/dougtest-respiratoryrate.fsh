@@ -8,6 +8,6 @@ Usage: #example
 * code.coding[+] = $loinc#9279-1 "Respiratory Rate"
 * subject = Reference(Patient/Patient-DougTest) "Doug Test"
 * effectiveDateTime = "2018-10-04T14:17:59+01:00"
-* performer[0] = Reference(Practitioner/Practitioner-TriageNurse)
-* performer[+] = Reference(Organization/Organization-CymruHospital)
+* performer[0] = Reference(Practitioner/Practitioner-WrexhamMaelor-TriageNurse)
+* performer[+] = Reference(Organization/Organization-WrexhamMaelorHospital)
 * valueQuantity = 21 '/min' "Breaths / minute"

@@ -1,0 +1,9 @@
+Instance: PractitionerRole-YsbytyGwynedd-Receptionist
+InstanceOf: PractitionerRole
+Description: "Practitioner that is a emergency department receptionist."
+Usage: #example
+* active = true
+* practitioner = Reference(Practitioner/Practitioner-YsbytyGwynedd-Receptionist) "YsbytyGwynedd Receptionist"
+* organization = Reference(Organization/Organization-YsbytyGwyneddHospital)
+* specialty = $sct#159561009 "Receptionist"
+* location = Reference(Location/Location-YsbytyGwyneddHospital) "YsbytyGwynedd Hospital"

@@ -6,5 +6,5 @@ Usage: #example
 * code = $sct#722742002 "Breathing room air"
 * subject = Reference(Patient/Patient-CarolTest) "Carol Test"
 * effectiveDateTime = "2018-10-04T14:17:59+01:00"
-* performer[0] = Reference(Practitioner/Practitioner-TriageNurse)
-* performer[+] = Reference(Organization/Organization-CymruHospital)
+* performer[0] = Reference(Practitioner/Practitioner-WrexhamMaelor-TriageNurse)
+* performer[+] = Reference(Organization/Organization-WrexhamMaelorHospital)

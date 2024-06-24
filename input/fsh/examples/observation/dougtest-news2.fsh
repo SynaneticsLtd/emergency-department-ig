@@ -7,16 +7,16 @@ Usage: #example
 * code = $sct#1104051000000101 "Royal College of Physicians NEWS2 (National Early Warning Score 2) total score"
 * subject = Reference(Patient/Patient-DougTest) "Doug Test"
 * effectiveDateTime = "2018-10-04T14:17:59+01:00"
-* performer[0] = Reference(Practitioner/Practitioner-TriageNurse)
-* performer[+] = Reference(Organization/Organization-CymruHospital)
+* performer[0] = Reference(Practitioner/Practitioner-WrexhamMaelor-TriageNurse)
+* performer[+] = Reference(Organization/Organization-WrexhamMaelorHospital)
 * valueQuantity = 6 '{ScoreOf}' "ScoreOf"
-* derivedFrom[0] = Reference(Observation-RespiratoryRate)
-* derivedFrom[+] = Reference(Observation-HeartRate)
-* derivedFrom[+] = Reference(Observation-OxygenSaturation)
-* derivedFrom[+] = Reference(Observation-BreathingRoom)
-* derivedFrom[+] = Reference(Observation-BodyTemperature)
-* derivedFrom[+] = Reference(Observation-BloodPressure)
-* derivedFrom[+] = Reference(Observation-ACVPU)
+* derivedFrom[0] = Reference(Observation-DougTest-RespiratoryRate)
+* derivedFrom[+] = Reference(Observation-DougTest-HeartRate)
+* derivedFrom[+] = Reference(Observation-DougTest-OxygenSaturation)
+* derivedFrom[+] = Reference(Observation-DougTest-BreathingRoom)
+* derivedFrom[+] = Reference(Observation-DougTest-BodyTemperature)
+* derivedFrom[+] = Reference(Observation-DougTest-BloodPressure)
+* derivedFrom[+] = Reference(Observation-DougTest-ACVPU)
 * component[0].code = $sct#1104301000000104 "Royal College of Physicians NEWS2 (National Early Warning Score 2) - respiration rate score"
 * component[=].valueQuantity = 2 '{ScoreOf}' "ScoreOf"
 * component[+].code = $sct#1104351000000103 "Royal College of Physicians NEWS2 (National Early Warning Score 2) - pulse score"
