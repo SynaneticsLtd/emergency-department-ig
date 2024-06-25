@@ -12,3 +12,6 @@ Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation
 Alias: $loinc = http://loinc.org
 Alias: $service-category = http://terminology.hl7.org/CodeSystem/service-category
 Alias: $service-provision-conditions = http://terminology.hl7.org/CodeSystem/service-provision-conditions
+Alias: $encounter-status = http://hl7.org/fhir/encounter-status
+Alias: $wales-location-identifier = https://fhir.nhs.wales/Id/location-identifier
+Alias: $ods-code = https://fhir.nhs.uk/Id/ods-organization-code
