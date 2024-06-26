@@ -22,6 +22,10 @@ Usage: #example
 * entry[=].resource = Practitioner-GlanClwyd-JuniorDoctor
 * entry[=].request.method = #PUT
 * entry[=].request.url = "Practitioner/Practitioner-GlanClwyd-JuniorDoctor"
+* entry[+].fullUrl = "https://www.nhs.wales/Practitioner/Practitioner-GlanClwyd-EDConsultant"
+* entry[=].resource = Practitioner-GlanClwyd-EDConsultant
+* entry[=].request.method = #PUT
+* entry[=].request.url = "Practitioner/Practitioner-GlanClwyd-EDConsultant"
 * entry[+].fullUrl = "https://www.nhs.wales/Practitioner/Practitioner-WrexhamMaelor-TriageNurse"
 * entry[=].resource = Practitioner-WrexhamMaelor-TriageNurse
 * entry[=].request.method = #PUT
@@ -34,6 +38,10 @@ Usage: #example
 * entry[=].resource = Practitioner-WrexhamMaelor-JuniorDoctor
 * entry[=].request.method = #PUT
 * entry[=].request.url = "Practitioner/Practitioner-WrexhamMaelor-JuniorDoctor"
+* entry[+].fullUrl = "https://www.nhs.wales/Practitioner/Practitioner-WrexhamMaelor-EDConsultant"
+* entry[=].resource = Practitioner-WrexhamMaelor-EDConsultant
+* entry[=].request.method = #PUT
+* entry[=].request.url = "Practitioner/Practitioner-WrexhamMaelor-EDConsultant"
 * entry[+].fullUrl = "https://www.nhs.wales/Practitioner/Practitioner-YsbytyGwynedd-TriageNurse"
 * entry[=].resource = Practitioner-YsbytyGwynedd-TriageNurse
 * entry[=].request.method = #PUT
@@ -46,6 +54,10 @@ Usage: #example
 * entry[=].resource = Practitioner-YsbytyGwynedd-JuniorDoctor
 * entry[=].request.method = #PUT
 * entry[=].request.url = "Practitioner/Practitioner-YsbytyGwynedd-JuniorDoctor"
+* entry[+].fullUrl = "https://www.nhs.wales/Practitioner/Practitioner-YsbytyGwynedd-EDConsultant"
+* entry[=].resource = Practitioner-YsbytyGwynedd-EDConsultant
+* entry[=].request.method = #PUT
+* entry[=].request.url = "Practitioner/Practitioner-YsbytyGwynedd-EDConsultant"
 
 // PractitionerRoles
 
@@ -65,6 +77,10 @@ Usage: #example
 * entry[=].resource = PractitionerRole-GlanClwyd-JuniorDoctor
 * entry[=].request.method = #PUT
 * entry[=].request.url = "PractitionerRole/PractitionerRole-GlanClwyd-JuniorDoctor"
+* entry[+].fullUrl = "https://www.nhs.wales/PractitionerRole/PractitionerRole-GlanClwyd-EDConsultant"
+* entry[=].resource = PractitionerRole-GlanClwyd-EDConsultant
+* entry[=].request.method = #PUT
+* entry[=].request.url = "PractitionerRole/PractitionerRole-GlanClwyd-EDConsultant"
 * entry[+].fullUrl = "https://www.nhs.wales/PractitionerRole/PractitionerRole-WrexhamMaelor-TriageNurse"
 * entry[=].resource = PractitionerRole-WrexhamMaelor-TriageNurse
 * entry[=].request.method = #PUT
@@ -77,6 +93,10 @@ Usage: #example
 * entry[=].resource = PractitionerRole-WrexhamMaelor-JuniorDoctor
 * entry[=].request.method = #PUT
 * entry[=].request.url = "PractitionerRole/PractitionerRole-WrexhamMaelor-JuniorDoctor"
+* entry[+].fullUrl = "https://www.nhs.wales/PractitionerRole/PractitionerRole-WrexhamMaelor-EDConsultant"
+* entry[=].resource = PractitionerRole-WrexhamMaelor-EDConsultant
+* entry[=].request.method = #PUT
+* entry[=].request.url = "PractitionerRole/PractitionerRole-WrexhamMaelor-EDConsultant"
 * entry[+].fullUrl = "https://www.nhs.wales/PractitionerRole/PractitionerRole-YsbytyGwynedd-TriageNurse"
 * entry[=].resource = PractitionerRole-YsbytyGwynedd-TriageNurse
 * entry[=].request.method = #PUT
@@ -89,6 +109,10 @@ Usage: #example
 * entry[=].resource = PractitionerRole-YsbytyGwynedd-JuniorDoctor
 * entry[=].request.method = #PUT
 * entry[=].request.url = "PractitionerRole/PractitionerRole-YsbytyGwynedd-JuniorDoctor"
+* entry[+].fullUrl = "https://www.nhs.wales/PractitionerRole/PractitionerRole-YsbytyGwynedd-EDConsultant"
+* entry[=].resource = PractitionerRole-YsbytyGwynedd-EDConsultant
+* entry[=].request.method = #PUT
+* entry[=].request.url = "PractitionerRole/PractitionerRole-YsbytyGwynedd-EDConsultant"
 
 // Patients
 
