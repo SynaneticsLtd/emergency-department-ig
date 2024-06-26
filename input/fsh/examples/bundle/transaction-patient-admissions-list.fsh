@@ -438,3 +438,32 @@ Usage: #example
 * entry[=].request.method = #PUT
 * entry[=].request.url = "Observation/Observation-FredTest-RespiratoryRate"
 
+// Groups
+
+* entry[+].fullUrl = "https://www.nhs.wales/Group/Group-GlanClwyd-Medicine-WaitingRoom"
+* entry[=].resource = Group-GlanClwyd-Medicine-WaitingRoom
+* entry[=].request.method = #PUT
+* entry[=].request.url = "Group/Group-GlanClwyd-Medicine-WaitingRoom"
+* entry[+].fullUrl = "https://www.nhs.wales/Group/Group-WrexhamMaelor-Medicine-WaitingRoom"
+* entry[=].resource = Group-WrexhamMaelor-Medicine-WaitingRoom
+* entry[=].request.method = #PUT
+* entry[=].request.url = "Group/Group-WrexhamMaelor-Medicine-WaitingRoom"
+* entry[+].fullUrl = "https://www.nhs.wales/Group/Group-YsbytyGwynedd-Medicine-WaitingRoom"
+* entry[=].resource = Group-YsbytyGwynedd-Medicine-WaitingRoom
+* entry[=].request.method = #PUT
+* entry[=].request.url = "Group/Group-YsbytyGwynedd-Medicine-WaitingRoom"
+
+// CareTeams
+
+* entry[+].fullUrl = "https://www.nhs.wales/CareTeam/CareTeam-GlanClwyd-Medicine"
+* entry[=].resource = CareTeam-GlanClwyd-Medicine
+* entry[=].request.method = #PUT
+* entry[=].request.url = "CareTeam/CareTeam-GlanClwyd-Medicine"
+* entry[+].fullUrl = "https://www.nhs.wales/CareTeam/CareTeam-WrexhamMaelor-Medicine"
+* entry[=].resource = CareTeam-WrexhamMaelor-Medicine
+* entry[=].request.method = #PUT
+* entry[=].request.url = "CareTeam/CareTeam-WrexhamMaelor-Medicine"
+* entry[+].fullUrl = "https://www.nhs.wales/CareTeam/CareTeam-YsbytyGwynedd-Medicine"
+* entry[=].resource = CareTeam-YsbytyGwynedd-Medicine
+* entry[=].request.method = #PUT
+* entry[=].request.url = "CareTeam/CareTeam-YsbytyGwynedd-Medicine"
