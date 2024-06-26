@@ -20,3 +20,4 @@ Usage: #example
 * reasonCode.coding.system = "http://snomed.info/sct"
 * reasonCode.coding.code = $sct#271825005
 * reasonCode.coding.display = "Respiratory distress"
+* serviceProvider = Reference(Organization/Organization-WrexhamMaelorHospital) "Wrexham Maelor Hospital"
