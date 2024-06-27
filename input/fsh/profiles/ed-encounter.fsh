@@ -1,11 +1,11 @@
-Profile: ED-Encounter
+Profile: Profile-ED-Encounter
 Parent: Encounter
-Id: ED-Encounter
+Id: Profile-ED-Encounter
 Title: "ED Encounter Profile"
 Description: "Record Encounter in ED"
 
 * ^name = "EdEncounter"
-* ^url = $ed-encounter
+* ^url = $profile-ed-encounter
 * ^version = "0.1.0"
 * ^status = #draft
 * ^date = "2024-06-26"

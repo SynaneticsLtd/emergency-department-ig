@@ -23,11 +23,20 @@ Alias: $reference = http://hl7.org/fhir/StructureDefinition/Reference
 //TODO these should have 5.0 in the url following the cross version rules, but the canonical in the config is causing a
 //     validation error, jusr remove fhir/5.0 and revisit when actual canonicals are better defined
 
+//TODO Base URL is localhost:8080 so this can be ran in the HAPI server for testing, it seems to need this to be able to 
+//     resolve the resources, specifically searchparameters, once its properly hosted they should be changed to proper 
+//     canonicals
+
+// SearchParameters
+
+Alias: $searchparam-encounter.careteam = http://localhost:8080/fhir/SearchParameter/SearchParameter-Encounter-CareTeam
+Alias: $searchparam-encounter.servicetype = http://localhost:8080/fhir/SearchParameter/SearchParameter-Encounter-ServiceType-Reference
+
 // Extensions
 
-Alias: $extension-encounter.servicetype = https://www.nhs.wales/fhir/StructureDefinition/Extension-Encounter-ServiceType-Reference
-Alias: $extension-encounter.careteam = https://www.nhs.wales/fhir/StructureDefinition/Extension-Encounter-CareTeam
+Alias: $extension-encounter.careteam = http://localhost:8080/fhir/StructureDefinition/Extension-Encounter-CareTeam
+Alias: $extension-encounter.servicetype = http://localhost:8080/fhir/StructureDefinition/Extension-Encounter-ServiceType-Reference
 
 // Profiles
 
-Alias: $ed-encounter = https://www.nhs.wales/fhir/StructureDefinition/ED-Encounter
+Alias: $profile-ed-encounter = http://localhost:8080/fhir/StructureDefinition/Profile-ED-Encounter

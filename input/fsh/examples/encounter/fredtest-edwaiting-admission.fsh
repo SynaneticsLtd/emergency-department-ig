@@ -2,7 +2,7 @@ Instance: Encounter-FredTest-EdWaiting-Admission-Respiratory
 InstanceOf: Encounter
 Description: "Encounter for patient Fred Test, waiting to be seen after initial triage/admission.  TODO, triaged then waiting (i.e. arrived)?"
 Usage: #example
-* meta.profile = $ed-encounter
+* meta.profile = $profile-ed-encounter
 
 * extension[0].url = $extension-encounter.servicetype
 * extension[=].valueReference = Reference(HealthcareService/HealthcareService-YsbytyGwynedd-Medicine)
