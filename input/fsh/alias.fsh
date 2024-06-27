@@ -15,3 +15,19 @@ Alias: $service-provision-conditions = http://terminology.hl7.org/CodeSystem/ser
 Alias: $encounter-status = http://hl7.org/fhir/encounter-status
 Alias: $wales-location-identifier = https://fhir.nhs.wales/Id/location-identifier
 Alias: $ods-code = https://fhir.nhs.uk/Id/ods-organization-code
+
+Alias: $reference = http://hl7.org/fhir/StructureDefinition/Reference
+
+// Custom
+
+//TODO these should have 5.0 in the url following the cross version rules, but the canonical in the config is causing a
+//     validation error, jusr remove fhir/5.0 and revisit when actual canonicals are better defined
+
+// Extensions
+
+Alias: $extension-encounter.servicetype = https://www.nhs.wales/fhir/StructureDefinition/Extension-Encounter-ServiceType-Reference
+Alias: $extension-encounter.careteam = https://www.nhs.wales/fhir/StructureDefinition/Extension-Encounter-CareTeam
+
+// Profiles
+
+Alias: $ed-encounter = https://www.nhs.wales/fhir/StructureDefinition/ED-Encounter
