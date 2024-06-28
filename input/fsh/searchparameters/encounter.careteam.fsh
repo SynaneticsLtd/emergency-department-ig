@@ -4,7 +4,7 @@ Title: "Search by backport of Encounter.careteam"
 Usage: #definition
 Description: "Search for the careteam of an Encounter."
 
-* name = "SearchParameterEncounterServiceType"
+* name = "SearchParameterEncounterCareTeam"
 * url = $searchparam-encounter.careteam
 * version = "0.1.0"
 * status = #active

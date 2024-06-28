@@ -16,6 +16,10 @@ Usage: #example
 * entry[=].resource = SearchParameter-Encounter-ServiceType-Reference
 * entry[=].request.method = #PUT
 * entry[=].request.url = "SearchParameter/SearchParameter-Encounter-ServiceType-Reference"
+* entry[+].fullUrl = $searchparam-encounter.statushistory
+* entry[=].resource = SearchParameter-Encounter-StatusHistory
+* entry[=].request.method = #PUT
+* entry[=].request.url = "SearchParameter/SearchParameter-Encounter-StatusHistory"
 
 // Extensions
 

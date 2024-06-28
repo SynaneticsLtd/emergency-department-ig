@@ -31,6 +31,7 @@ Alias: $reference = http://hl7.org/fhir/StructureDefinition/Reference
 
 Alias: $searchparam-encounter.careteam = http://localhost:8080/fhir/SearchParameter/SearchParameter-Encounter-CareTeam
 Alias: $searchparam-encounter.servicetype = http://localhost:8080/fhir/SearchParameter/SearchParameter-Encounter-ServiceType-Reference
+Alias: $searchparam-encounter.statushistory = http://localhost:8080/fhir/SearchParameter/SearchParameter-Encounter-StatusHistory
 
 // Extensions
 
