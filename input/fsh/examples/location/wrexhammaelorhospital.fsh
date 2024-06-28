@@ -15,4 +15,3 @@ Usage: #example
 * telecom.system = #phone
 * telecom.value = "+44 1978 291100"
 * physicalType = $location-physical-type#si "Site"
-* type = $sct#22232009 "Hospital"
