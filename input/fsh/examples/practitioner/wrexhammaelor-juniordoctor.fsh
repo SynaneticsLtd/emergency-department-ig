@@ -2,6 +2,8 @@ Instance: Practitioner-WrexhamMaelor-JuniorDoctor
 InstanceOf: Practitioner
 Description: "Practitioner that is a registrar."
 Usage: #example
+* identifier[0].system = "https://fhir.hl7.org.uk/Id/gmc-number"
+* identifier[=].value = "1000004"
 * name.use = #official
 * name.family = "WrexhamMaelor"
 * name.given = "JuniorDoctor"

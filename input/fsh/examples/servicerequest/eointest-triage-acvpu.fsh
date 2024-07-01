@@ -11,5 +11,5 @@ Usage: #example
 * subject = Reference(Patient/Patient-EoinTest) "Eoin Test"
 * authoredOn = "2000-01-01T09:03:07Z"
 * requester = Reference(Practitioner/Practitioner-GlanClwyd-TriageNurse) "GlanClwyd TriageNurse"
-* requester = Reference(Practitioner/Practitioner-GlanClwyd-TriageNurse) "GlanClwyd TriageNurse"
+* performer = Reference(Practitioner/Practitioner-GlanClwyd-TriageNurse) "GlanClwyd TriageNurse"
 * encounter = Reference(Encounter/Encounter-EoinTest-Triage-Admission-Respiratory)
