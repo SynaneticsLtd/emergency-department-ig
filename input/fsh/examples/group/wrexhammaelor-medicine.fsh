@@ -1,5 +1,6 @@
 Instance: Group-WrexhamMaelor-Medicine-WaitingRoom
 InstanceOf: Group
+Description: "Group defining patients in Wrexham Maelor ED waitingroom that have been triaged."
 Usage: #example
 * identifier[0].system = "https://fhir.nhs.wales/Id/location-identifier"
 * identifier[=].value = "edwaitingroom.1"

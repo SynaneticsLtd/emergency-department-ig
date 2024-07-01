@@ -1,6 +1,6 @@
 Instance: Task-BobTest-BreathingRoom
 InstanceOf: Task
-Description: "ServiceRequest for an breathing room observation as part of the MTS assessment in triage"
+Description: "Task for an breathing room observation as part of the MTS assessment in triage"
 Usage: #example
 * status = #completed
 * intent = #order

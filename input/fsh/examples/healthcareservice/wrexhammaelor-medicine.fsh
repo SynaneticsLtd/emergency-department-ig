@@ -1,5 +1,6 @@
 Instance: HealthcareService-WrexhamMaelor-Medicine
 InstanceOf: HealthcareService
+Description: "HealthcareService for Wrexham Maelor General Medicine specialty."
 Usage: #example
 * active = true
 * providedBy = Reference(Organization/Organization-WrexhamMaelorHospital) "Wrexham Maelor Hospital"
